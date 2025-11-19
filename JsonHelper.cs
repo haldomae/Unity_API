@@ -24,7 +24,7 @@ public class JsonHelper
 
     // Jsonをオブジェクト(扱いやすい)に変換する為のひな形
     // 入れ物の形を作っている
-    // System.Serializable -> 外部のファイルを扱うために必要
+    // System.Serializable -> 外部のファイル(拡張機能)を扱うために必要
     [System.Serializable]
     private class Wrapper<T>
     {
